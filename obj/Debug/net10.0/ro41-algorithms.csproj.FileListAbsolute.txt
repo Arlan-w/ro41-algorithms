@@ -1,0 +1,4 @@
+C:\Users\user\Desktop\ro41-algorithms\obj\Debug\net10.0\ro41-algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ro41-algorithms\obj\Debug\net10.0\ro41-algorithms.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ro41-algorithms\obj\Debug\net10.0\ro41-algorithms.AssemblyInfo.cs
+C:\Users\user\Desktop\ro41-algorithms\obj\Debug\net10.0\ro41-algorithms.csproj.CoreCompileInputs.cache
