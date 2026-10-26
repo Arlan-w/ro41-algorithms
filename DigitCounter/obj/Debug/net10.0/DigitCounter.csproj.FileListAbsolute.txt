@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\bin\Debug\net10.0\DigitCounter.exe
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\bin\Debug\net10.0\DigitCounter.deps.json
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\bin\Debug\net10.0\DigitCounter.runtimeconfig.json
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\bin\Debug\net10.0\DigitCounter.dll
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\bin\Debug\net10.0\DigitCounter.pdb
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.AssemblyInfo.cs
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.sourcelink.json
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.dll
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\refint\DigitCounter.dll
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.pdb
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\DigitCounter.genruntimeconfig.cache
+C:\Users\user\Desktop\ro41-algorithms\DigitCounter\obj\Debug\net10.0\ref\DigitCounter.dll
