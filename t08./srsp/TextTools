@@ -1,0 +1,102 @@
+using System;
+using System.Text;
+
+static class TextTools
+{
+    public static int CountWords(string s)
+    {
+        if (string.IsNullOrWhiteSpace(s))
+            return 0;
+
+        string[] words = s.Split(
+            (char[])null,
+            StringSplitOptions.RemoveEmptyEntries
+        );
+
+        return words.Length;
+    }
+
+    public static bool IsPalindrome(string s)
+    {
+        if (s == null)
+            return false;
+
+        StringBuilder clean = new StringBuilder();
+
+        foreach (char c in s)
+        {
+            if (!char.IsWhiteSpace(c))
+                clean.Append(char.ToLowerInvariant(c));
+        }
+
+        string result = clean.ToString();
+
+        int left = 0;
+        int right = result.Length - 1;
+
+        while (left < right)
+        {
+            if (result[left] != result[right])
+                return false;
+
+            left++;
+            right--;
+        }
+
+        return true;
+    }
+
+    public static string Initials(string fullName)
+    {
+        if (string.IsNullOrWhiteSpace(fullName))
+            return "";
+
+        string[] words = fullName.Split(
+            (char[])null,
+            StringSplitOptions.RemoveEmptyEntries
+        );
+
+        StringBuilder result = new StringBuilder();
+
+        foreach (string word in words)
+        {
+            result.Append(char.ToUpperInvariant(word[0]));
+            result.Append(". ");
+        }
+
+        return result.ToString().TrimEnd();
+    }
+
+    public static string Repeat(string s, int n)
+    {
+        StringBuilder result = new StringBuilder();
+
+        for (int i = 0; i < n; i++)
+        {
+            result.Append(s);
+        }
+
+        return result.ToString();
+    }
+}
+
+class Program
+{
+    static void Main()
+    {
+        Console.WriteLine("=== CountWords ===");
+        Console.WriteLine(TextTools.CountWords("a b"));
+        Console.WriteLine(TextTools.CountWords(""));
+        Console.WriteLine(TextTools.CountWords("   "));
+
+        Console.WriteLine("\n=== IsPalindrome ===");
+        Console.WriteLine(TextTools.IsPalindrome("А роза упала на лапу Азора"));
+        Console.WriteLine(TextTools.IsPalindrome("Ахметов Ерлан"));
+
+        Console.WriteLine("\n=== Initials ===");
+        Console.WriteLine(TextTools.Initials("Ахметов Ерлан Серикулы"));
+
+        Console.WriteLine("\n=== Repeat ===");
+        Console.WriteLine(TextTools.Repeat("Hello", 3));
+    }
+}
